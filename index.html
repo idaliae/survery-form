@@ -25,10 +25,21 @@
             <label id="email-label"><input id="email" type="email" placeholder="Enter email..." required />Email: 
             <label id="number-label"><input id="number" type="number" min="8" max="16" placeholder="Enter age" />Number:  </label>
         </fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
-    </form>
-    
+        <fieldset>
+            <select id="dropdown">
+                <option>Select one: </option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label><input type="radio" name="recommend" value="1" /> Definitely</label>
+            <label><input type="radio" name="recommend" value="2" /> Maybe </label>
+        </fieldset>
+        <label><input type="checkbox" value="1" /> Improvement 1 </label>
+            <label><input type="checkbox" value="2" /> Improvement 2</label>
+        <textarea>Add requests or feedback:</textarea>
+        <button id="submit" type="submit">Submit</button>
+    </form>    
 </body>
 </html>
